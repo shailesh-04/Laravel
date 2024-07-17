@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
-  <link href="{{ asset('css/PageRouting01/style.css') }}" rel="stylesheet">
+  @vite(['resources/css/app.css'])
 </head>
 <body>
     <header class="Header">
@@ -13,7 +13,7 @@
       <nav>
         <a href="{{url('/')}}" class="active" >Home</a>
         <a href="{{url('/About')}}" >About Me</a>
-        <a href="{{url('/Service')}}" >Service</a>
+        <a href="{{route('curd.index')}}" >Curd Project</a>
         <a href="{{url('/Skill')}}" >Skill</a>
         <a href="{{url('/Contact')}}" >Contact</a>
       </nav>

@@ -12,9 +12,6 @@ class PageRouting01_Controller extends Controller
    public function About(){
      return(view('PageRouting01.about'));
    }
-   public function Service(){
-     return(view('PageRouting01.service'));
-   }
    public function Skill(){
      return(view('PageRouting01.skil'));
    }

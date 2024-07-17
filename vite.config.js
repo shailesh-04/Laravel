@@ -8,4 +8,12 @@ export default defineConfig({
             refresh: true,
         }),
     ],
+    server: {
+        watch: {
+            usePolling: true,
+            interval: 300,
+            ignored: ['**/node_modules/**', '**/.git/**'],
+        },
+    },
 });
+

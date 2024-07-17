@@ -11,7 +11,7 @@
     </div>
   </div>
   <div class="H-Image">
-    <img src="{{asset('image/PageRouting01/IMG_20240308_213814.png')}}" alt="Portfolio Image "/>
+    <img src="{{asset('asset/main.png')}}" alt="Portfolio Image "/>
   </div>
 </section>
 @endsection
